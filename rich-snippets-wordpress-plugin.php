@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: snip - The Rich Snippets & Structured Data Plugin
+Plugin Name: HYP Snippets
 Plugin URI: https://github.com/hypericumimpex/hyp-snippets/
 Description: Allows to create Rich Snippets and general structured data readable by search engines.
 Version: 2.8.1
