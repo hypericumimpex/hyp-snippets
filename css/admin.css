@@ -1,0 +1,36 @@
+/**
+ * Table of contents
+ *
+ * # Activation warning
+ * # Plugin page
+ */
+
+/* --------------------------------------
+ * # Activation warning
+ *--------------------------------------*/
+
+.wpb-rss-not-active-info {
+    background: #fff url('../img/snip.svg') no-repeat center right;
+    background-size: contain;
+}
+
+@media (max-width: 560px) {
+    .wpb-rss-not-active-info {
+        background-image: none;
+    }
+}
+
+/* --------------------------------------
+ * # Plugin page
+ *--------------------------------------*/
+.wp-list-table.plugins [data-plugin="rich-snippets-wordpress-plugin/rich-snippets-wordpress-plugin.php"] .desc {
+    background: #f7fcfe url('../img/snip.svg') no-repeat center right;
+    background-size: contain;
+    padding-right: 10em;
+}
+
+@media (max-width: 1400px) {
+    .wp-list-table.plugins [data-plugin="rich-snippets-wordpress-plugin/rich-snippets-wordpress-plugin.php"] .desc {
+        background-image: none;
+    }
+}
